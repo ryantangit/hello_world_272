@@ -27,6 +27,10 @@ World: https://hub.docker.com/repository/docker/ryantandocker/hello_272
     docker run -p 4445:4445 hello_272
     docker run -p 5000:5000 world_272
 
+#### Test with Script
+
+    ./docker_script.sh
+
 ## Kubernetes Method
 
 Done using Minikube to make a cluster
@@ -44,6 +48,10 @@ World
 
     kubectl apply -f ./world/world_deploy.yaml
     kubectl apply -f ./world/world_service.yaml
+
+#### Test with Script
+
+    ./kube_script_test.sh
 
 ## To run services individually
 
